@@ -92,7 +92,6 @@ rails -v
 # Rails 7.0.6
 ```
 
-
 # 8 Setting Up A Database
 
 ```bash
@@ -100,4 +99,10 @@ brew install postgresql
 # To have launchd start postgresql at login:
 brew services start postgresql
 
+```
+# 9 Iterm iTerm Themes
+create a file ` .theme.itermcolors` & paste from this link for `synthwave` & also try (Breeze ,Brogrammer ,Builtin Dark)
+
+```bash
+https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/synthwave.itermcolors
 ```

@@ -38,7 +38,7 @@ export PROMPT='%n::%4~$vcs_info_msg_0_ %#'
  brew install --cask google-chrome visual-studio-code slack iterm2 appcleaner sublime-text docker asdf
 ```
 
-#4 Install Ruby
+# 4 Install Ruby
 
 ```bash
 cd
@@ -49,7 +49,7 @@ echo 'legacy_version_file = yes' >> ~/.asdfrc
 exec $SHELL
 ```
 
-#4 Install plugin
+# 5 Install plugin
 ```bash
 asdf plugin add ruby
 asdf plugin add nodejs
@@ -75,7 +75,7 @@ npm install -g yarn
 ```
 
 
-#5 Config Git
+# 6 Config Git
 
 ```bash
 git config --global color.ui true
@@ -84,7 +84,7 @@ git config --global user.email "YOUR@EMAIL.com"
 ssh-keygen -t ed25519 -C "YOUR@EMAIL.com"
 ```
 
-#6 Install Rails
+# 7 Install Rails
 
 ```bash
 gem install rails -v 7.0.6
@@ -93,10 +93,11 @@ rails -v
 ```
 
 
-#7 Setting Up A Database
+# 8 Setting Up A Database
 
 ```bash
 brew install postgresql
 # To have launchd start postgresql at login:
 brew services start postgresql
+
 ```

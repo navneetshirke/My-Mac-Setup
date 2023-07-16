@@ -1,6 +1,6 @@
 # My-Mac-Setup
 
-###1 
+### 1 
 For ```.zshrc``` file (showing Git Repo name & current working directory)
 
 ```bash

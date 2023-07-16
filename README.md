@@ -1,7 +1,6 @@
 # My-Mac-Setup
 
-### 1 
-For ```.zshrc``` file (showing Git Repo name & current working directory)
+# 1 For `.zshrc` file (showing Git Repo name & current working directory)
 
 ```bash
 
@@ -22,9 +21,14 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
   fi
 }
 setopt PROMPT_SUBST
-export PROMPT='%n::%4~$vcs_info_msg_0_ %#'  ```
-
-### 2 istall Brew
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+export PROMPT='%n::%4~$vcs_info_msg_0_ %#'
 ```
+
+# 2 istall Brew
+
+```bash
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+```
+

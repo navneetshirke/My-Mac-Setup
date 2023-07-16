@@ -5,7 +5,7 @@ autoload -Uz compinit && compinit
 autoload -Uz add-zsh-hook
 autoload -Uz vcs_info
 
-add-zsh-hook precmd vcs_info
+`add-zsh-hook precmd vcs_info
 
 zstyle ':vcs_info:*' enable git
 zstyle ':vcs_info:*' formats " %F{cyan}%c%u(%b)%f"
@@ -23,4 +23,4 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
 }
 
 setopt PROMPT_SUBST
-export PROMPT='%n::%4~$vcs_info_msg_0_ %# ' "
+export PROMPT='%n::%4~$vcs_info_msg_0_ %# ' `

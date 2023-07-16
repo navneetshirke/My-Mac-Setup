@@ -24,7 +24,7 @@ setopt PROMPT_SUBST
 export PROMPT='%n::%4~$vcs_info_msg_0_ %#'
 ```
 
-# 2 istall Brew
+# 2 install Brew
 
 ```bash
 
@@ -32,3 +32,71 @@ export PROMPT='%n::%4~$vcs_info_msg_0_ %#'
 
 ```
 
+# 3 install Apps
+
+```bash
+ brew install --cask google-chrome visual-studio-code slack iterm2 appcleaner sublime-text docker asdf
+```
+
+#4 Install Ruby
+
+```bash
+cd
+git clone https://github.com/excid3/asdf.git ~/.asdf
+echo '. "$HOME/.asdf/asdf.sh"' >> ~/.zshrc
+echo '. "$HOME/.asdf/completions/asdf.bash"' >> ~/.zshrc
+echo 'legacy_version_file = yes' >> ~/.asdfrc
+exec $SHELL
+```
+
+#4 Install plugin
+```bash
+asdf plugin add ruby
+asdf plugin add nodejs
+asdf install ruby 3.2.2
+asdf global ruby 3.2.2
+# Update to the latest Rubygems version
+gem update --system
+
+which ruby
+#=> /Users/username/.asdf/shims/ruby
+ruby -v
+#=> 3.2.2
+asdf install nodejs 18.16.1
+asdf global nodejs 18.16.1
+
+which node
+#=> /Users/username/.asdf/shims/node
+node -v
+#=> 18.16.1
+
+# Install yarn for Rails jsbundling/cssbundling or webpacker
+npm install -g yarn
+```
+
+
+#5 Config Git
+
+```bash
+git config --global color.ui true
+git config --global user.name "YOUR NAME"
+git config --global user.email "YOUR@EMAIL.com"
+ssh-keygen -t ed25519 -C "YOUR@EMAIL.com"
+```
+
+#6 Install Rails
+
+```bash
+gem install rails -v 7.0.6
+rails -v
+# Rails 7.0.6
+```
+
+
+#7 Setting Up A Database
+
+```bash
+brew install postgresql
+# To have launchd start postgresql at login:
+brew services start postgresql
+```

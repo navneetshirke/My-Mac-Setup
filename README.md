@@ -1,5 +1,5 @@
 # My-Mac-Setup
-for .zshrc file 
+For ```.zshrc``` file 
 "
 autoload -Uz compinit && compinit
 autoload -Uz add-zsh-hook

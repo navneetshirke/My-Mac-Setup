@@ -22,4 +22,9 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
   fi
 }
 setopt PROMPT_SUBST
-export PROMPT='%n::%4~$vcs_info_msg_0_ %#'  
+export PROMPT='%n::%4~$vcs_info_msg_0_ %#'  ```
+
+### 2 istall Brew
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```

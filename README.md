@@ -106,3 +106,18 @@ create a file ` .theme.itermcolors` & paste from this link for `synthwave` & als
 ```bash
 https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/synthwave.itermcolors
 ```
+
+# 10 Sublime textEditor setting 
+
+You can simply go to file `preferences/settings/preferences.sublime_setting`
+
+```bash
+{
+"color_scheme": "Monokai.sublime-color-scheme",
+	"font_size": 15,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"detect_indentation": false,
+	"preview_on_click": false
+ }
+```

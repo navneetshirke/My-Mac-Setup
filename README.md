@@ -37,6 +37,7 @@ export PROMPT='%n::%4~$vcs_info_msg_0_ %#'
 ```bash
  brew install --cask google-chrome visual-studio-code slack iterm2 appcleaner sublime-text docker asdf
 ```
+for update - ``` brew upgrade  ```
 
 # Install Ruby
 

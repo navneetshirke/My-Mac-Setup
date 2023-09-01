@@ -114,11 +114,11 @@ You can simply go to file `preferences/settings/preferences.sublime_setting`
 
 ```bash
 {
-        "color_scheme": "Monokai.sublime-color-scheme",
+	"color_scheme": "Monokai.sublime-color-scheme",
 	"font_size": 15,
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"detect_indentation": false,
 	"preview_on_click": false
- }
+}
 ```

@@ -1,6 +1,6 @@
 # My-Mac-Setup
 
-# 1 For `.zshrc` file (showing Git Repo name & current working directory)
+# For `.zshrc` file (showing Git Repo name & current working directory)
 
 ```bash
 
@@ -24,7 +24,7 @@ setopt PROMPT_SUBST
 export PROMPT='%n::%4~$vcs_info_msg_0_ %#'
 ```
 
-# 2 install Brew
+# install Brew
 
 ```bash
 
@@ -32,13 +32,13 @@ export PROMPT='%n::%4~$vcs_info_msg_0_ %#'
 
 ```
 
-# 3 install Apps
+# install Apps
 
 ```bash
  brew install --cask google-chrome visual-studio-code slack iterm2 appcleaner sublime-text docker asdf
 ```
 
-# 4 Install Ruby
+# Install Ruby
 
 ```bash
 cd
@@ -49,7 +49,7 @@ echo 'legacy_version_file = yes' >> ~/.asdfrc
 exec $SHELL
 ```
 
-# 5 Install plugin
+# Install plugin
 ```bash
 asdf plugin add ruby
 asdf plugin add nodejs
@@ -75,7 +75,7 @@ npm install -g yarn
 ```
 
 
-# 6 Config Git
+# Config Git
 
 ```bash
 git config --global color.ui true
@@ -84,7 +84,7 @@ git config --global user.email "YOUR@EMAIL.com"
 ssh-keygen -t ed25519 -C "YOUR@EMAIL.com"
 ```
 
-# 7 Install Rails
+# Install Rails
 
 ```bash
 gem install rails -v 7.0.6
@@ -92,7 +92,7 @@ rails -v
 # Rails 7.0.6
 ```
 
-# 8 Setting Up A Database
+# Setting Up A Database
 
 ```bash
 brew install postgresql
@@ -100,14 +100,14 @@ brew install postgresql
 brew services start postgresql
 
 ```
-# 9 Iterm iTerm Themes
+# Iterm iTerm Themes
 create a file ` .theme.itermcolors` & paste from this link for `synthwave` & also try (Breeze ,Brogrammer ,Builtin Dark)
 
 ```bash
 https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/synthwave.itermcolors
 ```
 
-# 10 Sublime textEditor setting 
+# Sublime textEditor setting 
 
 You can simply go to file `preferences/settings/preferences.sublime_setting`
 

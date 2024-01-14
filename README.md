@@ -35,7 +35,7 @@ export PROMPT='%n::%4~$vcs_info_msg_0_ %#'
 # install Apps via BREW
 
 ```bash
- brew install --cask google-chrome visual-studio-code slack iterm2 appcleaner sublime-text docker asdf postman vlc pgadmin4 libreoffice 
+ brew install --cask google-chrome visual-studio-code slack appcleaner sublime-text docker asdf postman vlc pgadmin4 libreoffice 
 ```
 for update - ``` brew upgrade  ```
 
@@ -109,12 +109,6 @@ brew install postgresql
 # To have launchd start postgresql at login:
 brew services start postgresql
 
-```
-# Iterm iTerm Themes
-create a file ` .theme.itermcolors` & paste from this link for `synthwave` & also try (Breeze ,Brogrammer ,Builtin Dark)
-
-```bash
-https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/synthwave.itermcolors
 ```
 
 # Sublime textEditor setting 

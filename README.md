@@ -32,12 +32,21 @@ export PROMPT='%n::%4~$vcs_info_msg_0_ %#'
 
 ```
 
-# install Apps
+# install Apps via BREW
 
 ```bash
- brew install --cask google-chrome visual-studio-code slack iterm2 appcleaner sublime-text docker asdf postman vlc pgadmin4 
+ brew install --cask google-chrome visual-studio-code slack iterm2 appcleaner sublime-text docker asdf postman vlc pgadmin4 libreoffice 
 ```
 for update - ``` brew upgrade  ```
+
+# install Apps via Link/AppStore
+
+```
+1 Today App: https://apps.apple.com/in/app/today/id6443714928?mt=12
+2 Usage App: https://apps.apple.com/in/app/usage-system-activity-monitor/id1561788435?mt=12
+3 FlipCLock: https://apps.apple.com/in/app/flip-clock-digital-widgets/id1181028777 
+4 upscayl: https://www.upscayl.org/
+```
 
 # Install Ruby
 

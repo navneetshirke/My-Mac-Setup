@@ -109,6 +109,16 @@ brew install postgresql
 # To have launchd start postgresql at login:
 brew services start postgresql
 
+postgres -V
+# Configuring Postgres
+psql postgres
+postgres=# \du
+A. Creating Users
+ postgres=# CREATE ROLE patrick WITH LOGIN PASSWORD 'Getting started'; 
+ # So let’s add the CREATEDB permission to our new user to allow them to create databases:
+ postgres=# ALTER ROLE patrick CREATEDB; 
+
+
 ```
 
 # Sublime textEditor setting 

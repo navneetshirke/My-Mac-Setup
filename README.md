@@ -113,9 +113,9 @@ postgres -V
 # Configuring Postgres
 1 psql postgres
 2 \du
-# A. Creating Users
+# Creating Users
 3 CREATE ROLE USERNAME WITH LOGIN PASSWORD 'PASSWORD'; 
-# enable permission
+# Enable permission
 4 ALTER ROLE patrick CREATEDB; 
 ```
 

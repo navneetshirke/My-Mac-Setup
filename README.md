@@ -117,6 +117,7 @@ postgres -V
 3 CREATE ROLE USERNAME WITH LOGIN PASSWORD 'PASSWORD'; 
 # Enable permission
 4 ALTER ROLE patrick CREATEDB; 
+5 CREATE DATABASE  db_name;
 ```
 
 # Sublime textEditor setting 

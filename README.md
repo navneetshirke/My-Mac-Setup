@@ -35,7 +35,7 @@ export PROMPT='%n::%4~$vcs_info_msg_0_ %#'
 # install Apps via BREW
 
 ```bash
- brew install --cask google-chrome visual-studio-code slack appcleaner sublime-text docker asdf postman vlc pgadmin4 libreoffice git git-gui
+ brew install --cask google-chrome visual-studio-code slack appcleaner sublime-text docker asdf postman vlc pgadmin4 libreoffice git git-gui subler
 ```
 for update - ``` brew upgrade  ```
 

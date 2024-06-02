@@ -64,6 +64,7 @@ asdf plugin add ruby
 asdf plugin add nodejs
 asdf install ruby 3.2.2
 asdf global ruby 3.2.2
+asdf reshim ruby
 # Update to the latest Rubygems version
 gem update --system
 

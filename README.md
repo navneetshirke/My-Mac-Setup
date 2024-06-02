@@ -24,6 +24,8 @@ setopt PROMPT_SUBST
 export PROMPT='%n::%4~$vcs_info_msg_0_ %#'
 ```
 
+Reload ```source ~/.zshrc```
+
 # install Brew
 
 ```bash

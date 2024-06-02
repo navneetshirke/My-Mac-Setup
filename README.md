@@ -44,8 +44,7 @@ for update - ``` brew upgrade  ```
 ```
 1 Today App: https://apps.apple.com/in/app/today/id6443714928?mt=12
 2 Usage App: https://apps.apple.com/in/app/usage-system-activity-monitor/id1561788435?mt=12
-3 FlipCLock: https://apps.apple.com/in/app/flip-clock-digital-widgets/id1181028777 
-4 upscayl: https://www.upscayl.org/
+3 upscayl: https://www.upscayl.org/
 ```
 
 # Install Ruby

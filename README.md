@@ -122,6 +122,7 @@ postgres -V
 # Sublime textEditor setting 
 
 You can simply go to file `preferences/settings/preferences.sublime_setting`
+Add this https://packagecontrol.io/packages/JsPrettier 
 
 ```bash
 {

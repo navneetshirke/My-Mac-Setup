@@ -48,6 +48,13 @@ for update - ``` brew upgrade  ```
 2 Usage App: https://apps.apple.com/in/app/usage-system-activity-monitor/id1561788435?mt=12
 3 upscayl: https://www.upscayl.org/
 ```
+# GitHub setup
+
+```
+git config --global color.ui true
+git config --global user.name "Navneet Shirke"
+git config --global user.email "navneetshirke@gmail.com"
+```
 
 # Install Ruby
 

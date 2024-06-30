@@ -136,21 +136,18 @@ Add this https://packagecontrol.io/packages/JsPrettier
 
 ```bash
 {
-	"color_scheme": "Monokai.sublime-color-scheme",
-	"font_size": 18,
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
-	"detect_indentation": false,
-"word_wrap": true,
-	"preview_on_click": false,
+  "color_scheme": "Monokai.sublime-color-scheme",
+  "font_size": 18,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "detect_indentation": false,
+  "word_wrap": true,
+  "preview_on_click": false,
   "remove_trailing_whitespace_on_save": true,
-    "ensure_single_trailing_newline": true,
-    "ignore_whitespace_only_lines": false,
-    "ignore_whitespace_on_current_line": true,
-	"ignored_packages":
-	[
-		"Vintage",
-	],
-	"index_files": true,
+  "ensure_single_trailing_newline": true,
+  "ignore_whitespace_only_lines": false,
+  "ignore_whitespace_on_current_line": true,
+  "ignored_packages": ["Vintage"],
+  "index_files": true,
 }
 ```

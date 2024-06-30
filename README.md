@@ -141,6 +141,7 @@ Add this https://packagecontrol.io/packages/JsPrettier
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"detect_indentation": false,
+"word_wrap": true,
 	"preview_on_click": false,
   "remove_trailing_whitespace_on_save": true,
     "ensure_single_trailing_newline": true,

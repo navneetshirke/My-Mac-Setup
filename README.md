@@ -140,7 +140,7 @@ You can simply go to file `preferences/settings/preferences.sublime_setting`
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
   "detect_indentation": false,
-  "word_wrap": true,
+  "word_wrap": false,
   "preview_on_click": false,
   "remove_trailing_whitespace_on_save": true,
   "ensure_single_trailing_newline": true,

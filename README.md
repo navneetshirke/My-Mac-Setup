@@ -157,6 +157,19 @@ You can simply go to file `preferences/settings/preferences.sublime_setting`
 
  Run in terminal to find path ``` which prettier ```
 
+ 1.	Open Sublime Text.
+	2.	Press Cmd+Shift+P to open the Command Palette.
+	3.	Type “Install Package Control” and press Enter.
+
+Step 4: Install the Prettier Plugin
+
+Now, install the Prettier plugin for Sublime Text:
+
+	1.	Press Cmd+Shift+P to open the Command Palette.
+	2.	Type “Package Control: Install Package” and press Enter.
+	3.	Search for “JsPrettier” and install it.
+
+
  1.	Open Sublime Text and go to Preferences > Package Settings > JsPrettier > Settings - User.
  2.	Add the following configuration to the settings file:
 

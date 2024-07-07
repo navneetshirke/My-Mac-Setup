@@ -129,7 +129,7 @@ postgres -V
 5 CREATE DATABASE  db_name;
 ```
 
-# Sublime textEditor setting 
+# Sublime Text Editor setting 
 
 You can simply go to file `preferences/settings/preferences.sublime_setting`
 
@@ -153,10 +153,13 @@ You can simply go to file `preferences/settings/preferences.sublime_setting`
 
 # Add Code-Prettier in Sublime
  run in terminal to install  ``` npm install -g prettier ```
+
  run in terminal to find path ```which prettier```
+
 	1.	Open Sublime Text and go to Preferences > Package Settings > JsPrettier > Settings - User.
 	2.	Add the following configuration to the settings file:
-```{
+```
+{
   "prettier_cli_path": "/usr/local/bin/prettier",
   "auto_format_on_save": true,
   "auto_format_on_save_excludes": [
@@ -179,4 +182,5 @@ You can simply go to file `preferences/settings/preferences.sublime_setting`
     "arrow_parens": "avoid",
     "html_whitespace_sensitivity": "css"
   }
-}```
+}
+```

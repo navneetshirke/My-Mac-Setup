@@ -173,7 +173,7 @@ You can simply go to file `preferences/settings/preferences.sublime_setting`
 
 ```bash
 {
-  "prettier_cli_path": "/usr/local/bin/prettier",
+  "prettier_cli_path": "/Users/navneetshirke/.asdf/shims/prettier",
   "auto_format_on_save": true,
   "auto_format_on_save_excludes": [
     "*/node_modules/*",

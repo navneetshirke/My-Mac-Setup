@@ -152,13 +152,15 @@ You can simply go to file `preferences/settings/preferences.sublime_setting`
 ```
 
 # Add Code-Prettier in Sublime
- run in terminal to install  ``` npm install -g prettier ```
 
- run in terminal to find path ```which prettier```
+ Run in terminal to install  ``` npm install -g prettier ```
 
-	1.	Open Sublime Text and go to Preferences > Package Settings > JsPrettier > Settings - User.
-	2.	Add the following configuration to the settings file:
-```
+ Run in terminal to find path ``` which prettier ```
+
+ 1.	Open Sublime Text and go to Preferences > Package Settings > JsPrettier > Settings - User.
+ 2.	Add the following configuration to the settings file:
+
+```bash
 {
   "prettier_cli_path": "/usr/local/bin/prettier",
   "auto_format_on_save": true,
@@ -183,4 +185,5 @@ You can simply go to file `preferences/settings/preferences.sublime_setting`
     "html_whitespace_sensitivity": "css"
   }
 }
+
 ```

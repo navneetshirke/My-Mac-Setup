@@ -165,7 +165,7 @@ You can simply go to file `preferences/settings/preferences.sublime_setting`
 
 1.	Press Cmd+Shift+P to open the Command Palette.
 2.	Type ```Package Control: Install Package``` and press Enter.
-3.	Search for ```JsPrettier``` and install it.
+3.	Search for   ```Emment``` , ```Html5``` , ```JsPrettier``` and install it.
 
 
  1.	Open Sublime Text and go to Preferences > Package Settings > JsPrettier > Settings - User.

@@ -132,7 +132,6 @@ postgres -V
 # Sublime textEditor setting 
 
 You can simply go to file `preferences/settings/preferences.sublime_setting`
-Add this https://packagecontrol.io/packages/JsPrettier 
 
 ```bash
 {
@@ -151,3 +150,33 @@ Add this https://packagecontrol.io/packages/JsPrettier
   "index_files": true,
 }
 ```
+
+# Add Code-Prettier in Sublime
+ run in terminal to install  ``` npm install -g prettier ```
+ run in terminal to find path ```which prettier```
+	1.	Open Sublime Text and go to Preferences > Package Settings > JsPrettier > Settings - User.
+	2.	Add the following configuration to the settings file:
+```{
+  "prettier_cli_path": "/usr/local/bin/prettier",
+  "auto_format_on_save": true,
+  "auto_format_on_save_excludes": [
+    "*/node_modules/*",
+    "*/.git/*",
+    "*/.svn/*",
+    "*/bower_components/*",
+    "*/dist/*"
+  ],
+  "additional_cli_args": {
+    "jsx_single_quote": false,
+    "jsx_bracket_same_line": false,
+    "print_width": 80,
+    "tab_width": 2,
+    "use_tabs": false,
+    "semi": true,
+    "single_quote": true,
+    "trailing_comma": "es5",
+    "bracket_spacing": true,
+    "arrow_parens": "avoid",
+    "html_whitespace_sensitivity": "css"
+  }
+}```

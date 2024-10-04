@@ -21,7 +21,7 @@ zstyle ':vcs_info:git*+set-message:*' hooks git-untracked
   fi
 }
 setopt PROMPT_SUBST
-export PROMPT='%n::%4~$vcs_info_msg_0_ %#'
+export PROMPT='%n::%4~$vcs_info_msg_0_%#'
 ```
 
 Reload ```source ~/.zshrc```
@@ -125,8 +125,8 @@ postgres -V
 # Creating Users
 3 CREATE ROLE USERNAME WITH LOGIN PASSWORD 'PASSWORD'; 
 # Enable permission
-4 ALTER ROLE patrick CREATEDB; 
-5 CREATE DATABASE  db_name;
+4 ALTER ROLE USERNAME CREATEDB; 
+5 CREATE DATABASE db_name;
 ```
 
 # Sublime Text Editor setting 

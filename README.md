@@ -37,7 +37,7 @@ Reload ```source ~/.zshrc```
 # install Apps via BREW
 
 ```bash
- brew install --cask google-chrome visual-studio-code slack appcleaner sublime-text docker asdf postman vlc pgadmin4 libreoffice git git-gui fsouza/prettierd/prettierd
+ brew install google-chrome visual-studio-code slack appcleaner sublime-text docker asdf postman vlc pgadmin4 libreoffice git git-gui fsouza/prettierd/prettierd
 ```
 for update - ``` brew upgrade  ```
 

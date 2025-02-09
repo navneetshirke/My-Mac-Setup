@@ -198,3 +198,6 @@ You can simply go to file `preferences/settings/preferences.sublime_setting`
 }
 
 ```
+
+# Rvm install
+``` rvm reinstall 3.2.0 --with-openssl-dir=$(brew --prefix openssl) --with-readline-dir=$(brew --prefix readline) --with-libyaml-dir=$(brew --prefix libyaml) --disable-dtrace --disable-docs```

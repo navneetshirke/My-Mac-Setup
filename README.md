@@ -199,5 +199,71 @@ You can simply go to file `preferences/settings/preferences.sublime_setting`
 
 ```
 
+# VsCodde Editor setting 
+
+
+```bash
+{
+  "workbench.colorTheme": "Monokai",
+
+  "editor.fontSize": 18,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "off",
+
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "workbench.editor.enablePreview": false,
+
+  "editor.formatOnSave": true,
+
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "ruby": "erb"
+  },
+
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+
+  "git.autofetch": true,
+
+  "terminal.integrated.fontSize": 16,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "security.workspace.trust.untrustedFiles": "open"
+}
+
+```
+
+# Extension list 
+
+```
+bradlc.vscode-tailwindcss
+craigmaslowski.erb
+dbaeumer.vscode-eslint
+eamodio.gitlens
+esbenp.prettier-vscode
+formulahendry.auto-rename-tag
+misogi.ruby-rubocop
+monokai.theme-monokai-pro-vscode
+ms-python.black-formatter
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+ms-python.vscode-python-envs
+ms-vscode.sublime-keybindings
+openai.chatgpt
+shopify.ruby-lsp
+usernamehw.errorlens
+
+```
+
 # Rvm install
 ``` rvm reinstall 3.2.0 --with-openssl-dir=$(brew --prefix openssl) --with-readline-dir=$(brew --prefix readline) --with-libyaml-dir=$(brew --prefix libyaml) --disable-dtrace --disable-docs```

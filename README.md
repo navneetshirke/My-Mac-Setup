@@ -204,13 +204,10 @@ which prettier
 ```json
 
 {
-  // 🎨 UI / Theme
   "workbench.colorTheme": "Monokai",
   "workbench.iconTheme": "material-icon-theme",
   "window.zoomLevel": 0.8,
-
-  // 🔤 Editor Basics
-  "editor.fontSize": 18,
+ "editor.fontSize": 18,
   "editor.fontFamily": "JetBrains Mono",
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
@@ -219,44 +216,26 @@ which prettier
   "editor.minimap.enabled": false,
   "editor.smoothScrolling": true,
   "editor.renderWhitespace": "none",
-
-  // ✨ Cursor & UX
   "editor.cursorBlinking": "solid",
   "editor.cursorStyle": "line",
   "editor.quickSuggestions": {
     "strings": true
   },
-
-  // ⚡ Formatting & Clean Code
   "editor.formatOnSave": true,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
-
-  // 📁 Explorer / Workbench
   "workbench.editor.enablePreview": false,
   "workbench.tree.renderIndentGuides": "always",
   "workbench.tree.indent": 18,
   "workbench.tree.expandMode": "singleClick",
   "explorer.compactFolders": false,
   "breadcrumbs.enabled": false,
-
-  // 🖥️ Terminal
   "terminal.integrated.fontSize": 16,
-
-  // 🔄 Git
   "git.autofetch": true,
-
-  // 🧠 JS / TS Smart Features
   "js/ts.updateImportsOnFileMove.enabled": "always",
-
-  // 🔐 Security (relaxed - be careful)
   "security.workspace.trust.untrustedFiles": "open",
-
-  // 🎯 Prettier (global formatting rules)
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
-
-  // 📦 Default Formatters
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -269,14 +248,13 @@ which prettier
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
-  // 🌬️ Tailwind Support
   "tailwindCSS.includeLanguages": {
     "javascript": "javascript",
     "typescript": "typescript",
     "ruby": "erb"
   }
 }
+
 
 
 

@@ -234,13 +234,14 @@ which prettier
 ## 1️⃣1️⃣ VS Code Extensions
 
 ```
+aliariff.vscode-erb-beautify
 bradlc.vscode-tailwindcss
-craigmaslowski.erb
-dbaeumer.vscode-eslint
-eamodio.gitlens
+castwide.solargraph
+dsznajder.es7-react-js-snippets
 esbenp.prettier-vscode
 formulahendry.auto-rename-tag
-misogi.ruby-rubocop
+github.copilot-chat
+hridoy.rails-snippets
 monokai.theme-monokai-pro-vscode
 ms-python.black-formatter
 ms-python.debugpy
@@ -248,7 +249,6 @@ ms-python.python
 ms-python.vscode-pylance
 ms-python.vscode-python-envs
 ms-vscode.sublime-keybindings
-openai.chatgpt
 shopify.ruby-lsp
-usernamehw.errorlens
+yurihs.sublime-vscode-theme
 ```
